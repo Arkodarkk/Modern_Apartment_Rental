@@ -2,7 +2,7 @@
 
 Revamping Kasa's apartment rental platform using React, React Router, and Node.js.
 
-![Kasa Logo](logo.png)
+![Home page Kasa](logo.png)
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ Kasa, a leader in apartment rentals between individuals, is undergoing a major o
 
 ## Screenshots
 
-Add relevant screenshots of the project here to showcase the interface and design.
+Some screenshots
 
 ## Design Guidelines
 
@@ -55,6 +55,9 @@ Prototype the site using available interactive prototypes to observe expected an
 - React
 - React Router
 - Node.js
+- Sass
+- HTML5
+- CSS3
 
 ## Contact
 
