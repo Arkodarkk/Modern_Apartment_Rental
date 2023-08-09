@@ -1,0 +1,44 @@
+.navigation {
+   display: flex;
+
+   ul {
+      display: flex;
+      gap: 60px;
+      margin: auto;
+
+      li {
+         color: $color1;
+         font-size: 1.5rem;
+         font-weight: 600;
+      }
+
+      .nav-active {
+         position: relative;
+
+         &::after {
+         content: "";
+         height: 2px;
+         width: 0;
+         background: $color1;
+         position: absolute;
+         border-radius: 10px;
+         bottom: 1px;
+         left: 50%;
+         transform: translateX(-50%);
+         -webkit-animation: anim 0.3s ease forwards;
+         animation: anim 0.6s ease forwards;
+
+         @-webkit-keyframes anim {
+            to {
+               width: 100%;
+            }
+         }
+         @keyframes anim {
+            to {
+               width: 100%;
+            }
+         }
+         }
+      }
+   }
+}
