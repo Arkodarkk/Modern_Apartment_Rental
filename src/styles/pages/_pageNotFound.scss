@@ -1,0 +1,22 @@
+.pnf-body-container {
+   @include flexCenter;
+   flex-direction: column;
+   color: $color1;
+   
+   h2 {
+      font-family: $font2;
+      font-size: 288px;
+      margin: 90px 0;
+   }
+
+   h3 {
+      font-size: 36px;
+      margin-bottom: 140px;
+   }
+
+   p {
+      font-size: 18px;
+      text-decoration: underline;
+      margin-bottom: 140px;
+   }
+}

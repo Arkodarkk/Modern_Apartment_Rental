@@ -2,8 +2,13 @@
    font-family: "font1";
    src: url(../assets/fonts/Montserrat-Regular.otf);
 }
+@font-face {
+   font-family: "font2";
+   src: url(../assets/fonts/Montserrat-Bold.otf);
+}
 
 $font1: "font1", sans-serif;
+$font2: "font2", sans-serif;
 
 $color1: #FF6060;
 $black: #000;
@@ -43,6 +48,7 @@ $white: #fff;
 
  a {
    text-decoration: none;
+   color: inherit;
  }
 
  li {
