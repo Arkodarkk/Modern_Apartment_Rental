@@ -1,0 +1,29 @@
+footer {
+   @include footerOffset;
+	height: 210px;
+	background-color: $black;
+	color: $white;
+   display: flex;
+   flex-direction: column;
+
+   .logo-footer-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      height: 50%;
+   }
+
+   .copyright-container {
+      font-size: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50%;
+   }
+
+   @media (max-width: 550px) {
+        margin-left: 20px; // Ajustez cette valeur selon vos besoins
+        margin-right: 20px; // Ajustez cette valeur selon vos besoins
+    }
+}
+
