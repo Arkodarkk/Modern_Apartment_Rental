@@ -9,6 +9,24 @@ $color1: #FF6060;
 $black: #000;
 $white: #fff;
 
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin positionCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin footerOffset {
+  margin-left: -100px;
+  margin-right: -100px;
+}
+
 * {
    padding: 0;
    margin: 0;
