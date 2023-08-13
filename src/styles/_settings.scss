@@ -1,10 +1,12 @@
 @font-face {
    font-family: "font1";
    src: url(../assets/fonts/Montserrat-Regular.otf);
+   font-display: swap;
 }
 @font-face {
    font-family: "font2";
    src: url(../assets/fonts/Montserrat-Bold.otf);
+   font-display: swap;
 }
 
 $font1: "font1", sans-serif;
@@ -40,6 +42,7 @@ $white: #fff;
 
  body {
    font-family: $font1;
+   font-size: 18px;
    background-color: $white;
    max-width: 1440px;
    margin: 0 auto;

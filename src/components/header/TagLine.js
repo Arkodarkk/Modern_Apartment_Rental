@@ -1,5 +1,5 @@
  import React from 'react';
- import pictureHeader from '../assets/images/Image_source1.webp';
+ import pictureHeader from '../../assets/images/Image_source1.webp';
  
  const TagLine = () => {
    return (

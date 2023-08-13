@@ -1,0 +1,17 @@
+.cards-container {
+   padding: 50px 50px 20px 50px;
+   border-radius: 25px;
+   background: #F6F6F6;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 60px;
+   margin-bottom: 50px;
+   
+   .show-more {
+      cursor: pointer;
+      margin-left: auto; 
+      text-decoration: underline;
+      text-underline-offset: 4px;
+   }
+}
