@@ -1,0 +1,40 @@
+.carousel-container {
+   height: 415px;
+   width: 100%;
+   margin-top: 50px;
+   position: relative;
+
+   .visible-image {
+      @include imageCover;
+      border-radius: 25px;
+   }
+
+   .carousel-arrows {
+      position: absolute;
+      top: 50%;
+      cursor: pointer;
+   }
+
+   .left-arrow {
+      left: 5%;
+      transform: translate(-50%, -50%);
+   }
+
+   .right-arrow {
+      right: 5%;
+      transform: translate(50%, -50%);
+   }
+
+   .carousel-position {
+      position: absolute;
+      left: 50%;
+      bottom: 4%;
+      font-size: 24px;
+      color: $white;
+      transform: translate(-50%, -50%);
+      // text-shadow: 3px 3px 2px rgba(0,0,0,0.7);
+      background-color: rgba($color: #000000, $alpha: 0.4);
+      border-radius: 10px;
+      padding: 5px;
+   }
+}
