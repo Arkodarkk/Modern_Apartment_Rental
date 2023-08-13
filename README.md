@@ -2,7 +2,7 @@
 
 Revamping Kasa's apartment rental platform using React, React Router, and Node.js.
 
-![Home page Kasa](./src/assets/screenshots/)
+![Home page Kasa](./src/assets/screenshots/Homepage_Kasa.webp)
 
 ## Table of Contents
 
