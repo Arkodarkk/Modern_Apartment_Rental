@@ -24,7 +24,7 @@ const Carousel = ({ appartement }) => {
 
    return (
       <div className='carousel-container'>
-         <img className='visible-image' src={pictures[index]} alt={`${appartement.title} - ${index + 1}`} />
+         <img className='visible-image' src={pictures[index]} alt={`${appartement.title} #${index + 1}`} />
          <img className='carousel-arrows left-arrow' src={leftArrow} alt={`Bouton du carousel pour afficher l'image précédente`} onClick={handlePrev} />
          <img className='carousel-arrows right-arrow' src={rightArrow} alt={`Bouton du carousel pour afficher l'image suivante`} onClick={handleNext} />
          <p className="carousel-position">{`${index + 1}/${pictures.length}`}</p>

@@ -11,9 +11,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        {/* Gestion dynamique des Routes vers les pages logement en fonction de leur id */}
         <Route path="/logements/:id" element={<LogementPage />} />
-        {/* path="*" est la route par défaut si jamais l'url ne correspond à rien de déclaré au dessus */}
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>
