@@ -28,10 +28,6 @@ const Carousel = ({ appartement }) => {
          <img className='carousel-arrows left-arrow' src={leftArrow} alt={`Bouton du carousel pour afficher l'image précédente`} onClick={handlePrev} />
          <img className='carousel-arrows right-arrow' src={rightArrow} alt={`Bouton du carousel pour afficher l'image suivante`} onClick={handleNext} />
          <p className="carousel-position">{`${index + 1}/${pictures.length}`}</p>
-         {/* {pictures &&
-            pictures.map((picture, index) => 
-               <img key={`Carousel #${index}`} src={picture} alt={`Photo ${index + 1} - ${appartement.title}`} />
-         )} */}
       </div>
    );
 };

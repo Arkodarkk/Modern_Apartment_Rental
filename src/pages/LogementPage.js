@@ -25,8 +25,10 @@ const LogementPage = () => {
 				<>
 					<Carousel appartement={appartement} />
 					<LogementInfos appartement={appartement} />
-					<Collapse label="Description" content={appartement.description} />
-					<Collapse label="Équipements" content={appartement.equipments} />
+					<div className="collapse-section">
+						<Collapse label="Description" content={appartement.description} customClass="description" />
+						<Collapse label="Équipements" content={appartement.equipments} customClass="equipments" />
+					</div>
 				</>
 			)}
 			<Footer />
