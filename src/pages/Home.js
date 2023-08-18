@@ -16,7 +16,7 @@ const Home = () => {
 		<div className="home-container">
 			<Header />
 			<PictureHeader />
-			<div className="cards-container">
+			<main className="cards-container">
 				{datas &&
 					datas
 						.slice(0, visibleCard)
@@ -26,7 +26,7 @@ const Home = () => {
 						Afficher plus de logements
 					</p>
 				)}
-			</div>
+			</main>
 			<Footer />
 		</div>
 	);
