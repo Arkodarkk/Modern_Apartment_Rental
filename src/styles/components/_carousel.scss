@@ -18,11 +18,21 @@
    .left-arrow {
       left: 5%;
       transform: translate(-50%, -50%);
+      transition: all ease 0.2s;
+
+      &:hover {
+         scale: 1.1;
+      }
    }
 
    .right-arrow {
       right: 5%;
       transform: translate(50%, -50%);
+      transition: all ease 0.2s;
+
+      &:hover {
+         scale: 1.1;
+      }
    }
 
    .carousel-position {
